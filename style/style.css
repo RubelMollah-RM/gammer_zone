@@ -7,7 +7,8 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -85,15 +86,17 @@ header {
 
 /* banner section */
 
-.banner_section {
+.banner_secition {
     height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .banner_header {
     font-family: Work Sans;
     font-size: 48px;
     font-weight: 600;
-    line-height: 56px;
     text-align: center;
 }
 
@@ -101,26 +104,74 @@ header {
     font-family: Work Sans;
     font-size: 95px;
     font-weight: 800;
-    line-height: 111px;
     text-align: center;
     color: #F948B2;
+    margin-top: -40px;
+}
+.banner_content{
+    margin-top: -90px;
 }
 
-.banner_content > p{
+.banner_content>p {
     font-family: Work Sans;
     font-size: 20px;
     font-weight: 500;
     text-align: left;
-    
+
 }
-.banner_content > p > img{
+
+.banner_content>div>p>img {
     height: 24px;
     width: 24px;
+    margin-right: 5px;
 }
 
+.img_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
 
+.sg_btn {
+    top: 617px;
+    left: 420px;
+    padding: 21px 40px;
+    border-radius: 48px;
+    gap: 10px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
 
+}
 
+#sign_in {
+    background-color: #db3d9f;
+    border: none;
+}
+
+#go_rogue {
+    background-color: #4EC5F7;
+    border: none;
+}
+.group_img{
+    margin-top: 30px;
+}
+
+.group_img > img{
+    height: 446px;
+}
+.background_img{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+.banner_content, .img_content{
+    justify-content: left;
+}
+
+/* banner section 2 */
 
 
 
@@ -131,14 +182,34 @@ header {
 @media screen and (max-width:576px) {
     .nav {
         flex-direction: column;
+        background-color: rgb(253, 253, 253);
+    }
+    .nav_section{
+        margin-left: -10px;
     }
 
     .contact_section {
         flex-direction: column;
-        margin-right: 60px;
+        margin-right: 10px;
     }
 
     .contact_section>li {
         margin-top: 15px;
     }
+    .banner_secition{
+        flex-direction: column-reverse;
+    }
+   .group_img{
+    margin-top: 1000px;
+   }
+   .banner_content{
+    margin-left: 30px;
+   }
+   .btn{
+    margin-left: 40px;
+   }
+   .sg_btn{
+    margin-top: 10px;
+   }
+
 }
