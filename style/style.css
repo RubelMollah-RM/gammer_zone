@@ -1,0 +1,144 @@
+/* work sens font by google */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;800&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+
+* {
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+
+header {
+    height: 130px;
+    background-color: rgb(240, 214, 214);
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_header {
+    color: rgb(223, 80, 127);
+    margin-left: 10px;
+}
+
+.nav_section {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gamer_img {
+    height: 40px;
+    width: 80px;
+
+}
+
+.follow_btn>img {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+
+.follow_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_section>li {
+    margin-left: 20px;
+    list-style: none;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* banner section */
+
+.banner_section {
+    height: 700px;
+}
+
+.banner_header {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+.banner_GOAT {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    line-height: 111px;
+    text-align: center;
+    color: #F948B2;
+}
+
+.banner_content > p{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    
+}
+.banner_content > p > img{
+    height: 24px;
+    width: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .contact_section {
+        flex-direction: column;
+        margin-right: 60px;
+    }
+
+    .contact_section>li {
+        margin-top: 15px;
+    }
+}
