@@ -246,23 +246,26 @@ header {
     text-align: center;
     margin-top: -20px;
 }
-.card_img_section{
+
+.card_img_section {
     height: 350px;
     width: 300px;
     padding: 10px;
 }
 
-.card_img_section > img {
+.card_img_section>img {
     width: 250px;
     height: 300px;
     border-radius: 16px;
 }
-.card_img{
+
+.card_img {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-#play{
+
+#play {
     height: 100px;
     width: 100px;
     position: relative;
@@ -270,16 +273,73 @@ header {
     left: 70px;
     display: none;
 }
-.card_img_section:hover #play{
+
+.card_img_section:hover #play {
     display: block;
     background-color: rgba(214, 228, 93, 0.671);
     cursor: pointer;
 }
-.card_img_section:hover{
+
+.card_img_section:hover {
     box-shadow: 0px 0px 5px 5px rgb(65, 121, 109);
     border-radius: 10px;
 }
 
+/* no download */
+.no_download {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_content {
+    width: 50%;
+    margin: 100px 200px;
+    padding: 10px;
+}
+
+.download_img {
+    width: 50%;
+    margin: 70px;
+    position: relative;
+}
+
+.download_img>img {
+    width: 500px;
+    height: 500px;
+}
+
+#girl_img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: -200px;
+    bottom: -100px;
+}
+
+#play_content {
+    color: #F948B2;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* play game  */
+
+#girl_img2 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: -200px;
+    bottom: -50px;
+}
+
+/* careers secition  */
+.careers{
+    background-color: #db3d9f;
+    height: 700px;
+}
 
 
 
