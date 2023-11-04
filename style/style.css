@@ -87,10 +87,11 @@ header {
 /* banner section */
 
 .banner_secition {
-    height: 700px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .banner_header {
@@ -105,7 +106,7 @@ header {
     font-size: 95px;
     font-weight: 800;
     text-align: center;
-    color: #F948B2;
+    color: #ee44a7;
     margin-top: -40px;
 }
 
@@ -325,6 +326,7 @@ header {
     font-size: 40px;
     font-weight: 700;
 }
+
 /* play game  */
 
 #girl_img2 {
@@ -336,57 +338,145 @@ header {
 }
 
 /* careers secition  */
-.careers{
+.careers {
     background-color: #db3d9f;
-    height: 700px;
+    height: 550px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.careers_container {
+    display: flex;
+}
+
+.careers_content {
+    width: 50%;
+    color: whitesmoke;
+    padding: 60px;
+}
+
+.img_div {
+    width: 50%;
+}
+
+.img_div>img {
+    width: 100%;
+}
+
+.careers_p {
+    display: flex;
+}
+
+.career_heading {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.careers_div1 {
+    text-align: left;
+    padding: 10px;
+}
+
+.careers_div2 {
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* image role section  */
+
+.gaming_role {
+    height: 300px;
+    width: 100%;
+}
+
+.img_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img_1_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 10px;
+    padding: 7px;
+}
+
+.img_1_content:hover {
+    border: 1px solid tomato;
+    border-radius: 25px;
+    color: #db3d9f;
+    cursor: pointer;
+}
+
+.img_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* footer section  */
+
+.footer_section {
+    height: 536px;
+    width: 100%;
+    background-color: rgba(11, 2, 35, 1);
+}
+
+#footer_header {
+    color: whitesmoke;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    gap: 60px;
+}
+
+.footer_content>p {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 56px;
+}
+
+.footer_icon>img {
+    width: 40px;
+    height: 40px;
+}
+.tarms_and_privacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 64px;
+    gap: 60px;
+}
+.footer{
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-top: 18px;
 }
 
 
 
 
 
-
-
-
-
-
 @media screen and (max-width:576px) {
-    .nav {
-        flex-direction: column;
-        background-color: rgb(253, 253, 253);
-    }
-
-    .nav_section {
-        margin-left: -10px;
-    }
-
-    .contact_section {
-        flex-direction: column;
-        margin-right: 10px;
-    }
-
-    .contact_section>li {
-        margin-top: 15px;
-    }
-
-    .banner_secition {
-        flex-direction: column-reverse;
-    }
-
-    .group_img {
-        margin-top: 1000px;
-    }
-
-    .banner_content {
-        margin-left: 30px;
-    }
-
-    .btn {
-        margin-left: 40px;
-    }
-
-    .sg_btn {
-        margin-top: 10px;
-    }
-
+   
 }
